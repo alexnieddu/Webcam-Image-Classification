@@ -2,6 +2,7 @@ let mobilenet;
 let video;
 let label = '';
 
+// Loads model MobileNet
 function modelReady() {
   console.log('Model is ready!!!');
   mobilenet.predict(gotResults);
@@ -17,10 +18,8 @@ function gotResults(error, results) {
   }
 }
 
-// function imageReady() {
-//   image(puffin, 0, 0, width, height);
-// }
 
+// p5.js setup for processing
 function setup() {
   createCanvas(640, 550);
   video = createCapture(VIDEO);

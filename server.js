@@ -1,3 +1,5 @@
+// Creates webserver with https
+// https is needed for security reasons to get access to local webcam of your machine
 var https = require('https');
 var fs = require('fs');
 var express = require('express');

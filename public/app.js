@@ -1,3 +1,5 @@
+// TODO: make it learn with webcam
+
 let mobilenet;
 let video;
 let label = '';
